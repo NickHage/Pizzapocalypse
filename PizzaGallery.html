@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pizza Gallery</title>
+	<link rel="stylesheet" href="Styles/PizzaGallery.css">
+	<link rel="icon" type="image/x-icon" href="images/Icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Pizza Gallery</h1>
+		<h2>The Gallery of Pizza</h2>
+	</header>
+
+	<main>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="PizzaGallery.html" style="color: black;">Pizza Gallery</a></li>
+				<li><a href="PizzaMaking.html">Pizza Making</a></li>
+			</ul>
+		</nav>
+		
+		<section id="Intro">
+			<h2>A Quick Intro to The Gallery</h2>
+			<p>
+				Here is the gallery. Below are photos of varies phots with the name of the pizza type underneath.
+			</p>
+		</section>
+
+		<section id="Gallery">
+			<figure>
+				<img src="/Images/CheesePizza.jpg" alt="Cheese Pizza">
+				<figcaption>Classic Cheese Pizza</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/HawaiianPizza.jpg" alt="Hawaiian Pizza">
+				<figcaption>Hawaiian Pizza With Pineapple and Ham</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/DeepDish.jpg" alt="Deep Dish Pizza">
+				<figcaption>Deep Dish Pizza</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/DetroitPizza.jpg" alt="Detroit Style Pizza">
+				<figcaption>Detroit Style Pizza: The Square</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/ColoradoPizza.jpg" alt="Colorado Style Pizza">
+				<figcaption>Colorado Style Pizza: Twisted Crust</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/NewYorkPizza.jpg" alt="New York Style Pizza">
+				<figcaption>New York Style Pizza: The More Classic, Classic</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/ChicagoPizza.jpg" alt="Chicago Style Pizza">
+				<figcaption>Chicago Style Pizza is Like Deep Dish, But The Cheese is Under The Sauce</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/AnchoviesPizza.jpg" alt="Anchovies on Pizza">
+				<figcaption>Yup, Fish on Pizza</figcaption>
+			</figure>
+
+			<figure>
+				<img src="/Images/TacoPizza.jpg" alt="Taco Pizza">
+				<figcaption>Taco Pizza: Taco Ingredients on a Pizza</figcaption>
+			</figure>
+			<h3>End of The Gallery</h3>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>
+			Copyright &copy; 2023 Pizzapocalypse
+			<br>
+			<a href="mailto:GotPizza@gmail.com" style="color: black;">GotPizza@gmail.com</a>
+		</p>
+	</footer>
+</body>
+</html>

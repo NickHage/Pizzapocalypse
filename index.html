@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pizzapocalypse</title>
+	<link rel="stylesheet" href="Styles/main.css">
+	<link rel="icon" type="image/x-icon" href="images/Icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Pizzapocalypse</h1>
+		<h2>For All Things Pizza.</h2>
+	</header>
+
+	<main>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="index.html" style="color: black;">Home</a></li>
+				<li><a href="PizzaGallery.html">Pizza Gallery</a></li>
+				<li><a href="PizzaMaking.html">Pizza Making</a></li>
+			</ul>
+		</nav>
+
+		<section id="section1">
+			<h2>What is Pizza Technically?</h2>
+			<p>Wikipedia describes pizza as:</p>
+			<blockquote>
+				"A dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients
+				(such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven."
+			</blockquote>
+		</section>
+
+		<section id="section2">
+			<h2>A Quick Origin of Pizza</h2>
+			<p>
+				The roots of pizza has been around for thousands of years, startting with flatbreads with the ancient Egyptians, Greeks, and Romans.
+				The more modern idea of Pizza started in Naples Italy during the 17th century. Then in the late 19th centure, Italian immigrants brough pizza to the United States.
+			</p>
+		</section>
+
+		<section id="section3">
+			<h2>Some State Speciels</h2>
+			<p>Many states in the U.S. have there own special way of making pizza. Such as:</p>
+			<Ul>
+				<li>Detroit Style</li>
+				<li>Colorado Style</li>
+				<li>New York Style</li>
+				<li>Chicago Style</li>
+			</Ul>
+			<p>You can find some photos of these on the "<a href="PizzaGallery.html" style="color: black;">Pizza Gallery</a>" tab</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>
+			Copyright &copy; 2023 Pizzapocalypse
+			<br>
+			<a href="mailto:GotPizza@gmail.com" style="color: black;">GotPizza@gmail.com</a>
+		</p>
+	</footer>
+</body>
+</html>
